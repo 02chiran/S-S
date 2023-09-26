@@ -1,0 +1,255 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+    .container{
+        max-width: 1180px;
+        margin-inline: auto;
+        padding-left: 15px;
+        padding-right: 10px;
+        overflow: hidden;
+        
+    }
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .abc{
+        background-color: #58595e;
+    }
+
+    .main-nav{
+        
+        justify-content: space-between;
+        position: relative;
+    
+    
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+     .logo {
+        color: #fff;
+        height: 3rem;
+        width: 3rem;
+       
+      
+       
+    }
+    .logo span{
+        color: crimson;
+    }
+
+    
+    .company-logo img{
+        width: 200px;
+    
+    }
+    .nav-links{
+    flex-basis: 730px;
+    
+    }
+    .nav-links ul{
+        justify-content:end;
+        gap: 40px;
+        flex-direction: row;
+        
+    }
+    .nav-toggle{
+        display: none;
+    }
+    .nav-links ul a{
+        color: #fff;
+    }
+   
+    .search{
+        width: 100vw;
+        height: 80vh;
+        background-image: url(istockphoto-511990814-612x612.jpg) ;
+        background-size: cover;
+    }
+    .search .img{
+        width: 900px%;
+    }
+    .search-box{
+        overflow-x: hidden;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        height: 60px;
+    }
+    .search h2{
+        position: absolute;
+         top: 35%;
+        left: 40%;
+    }
+    .search-text{
+        font-size: medium;
+        height: 45px;
+        width: 600px;
+        padding-left: 10px;
+        outline: none;
+    }
+    .title{
+        padding: 0px 0px 20px 600px;
+    }
+    .title h1{
+        padding-top: 15px;
+    }
+    .categories{
+
+       
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow:column;
+        grid-auto-columns:21% ;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        padding: 0 1rem 1rem 1rem;
+        
+    }
+    .elements{
+       display: grid;
+       grid-template-rows: min-content;
+       gap: 1rem;
+        padding: 20px;
+        background: white;
+        border-radius: 0;
+        
+    }
+    .elements img{
+        inline-size: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+    .services{
+        background-color:white;
+        width: 100%;
+    
+       
+    
+    
+    }
+    .services h1{
+        padding-bottom: 80px;
+    }
+    .title {
+        padding-top:10px ;
+        
+         color: black;
+    }
+    .title h1{
+        margin-bottom: 50px;
+        color: #2b2730;
+        font-family: 'Ubuntu',sans-serif;
+        
+        }
+    
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    }
+    .card{
+        height: 365px;
+        width: 335px;
+        
+       
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    
+    }
+ 
+    h5{
+        color: crimson;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .pra p{
+        color: black;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .card.button{
+        background-color: crimson;
+        color: white;
+        text-decoration: none;
+        border: 2px solid black;
+        font-weight: bold;
+        padding:6px 18px;
+        border-radius: 30px;
+    
+        transition: .4s;
+    
+    }
+    
+
+
+
+
+    footer{
+        
+        margin-top: 100px;
+        color: white;
+        width: 100vw;
+        height: 50vh;
+        background-color:  #9a9a9c;
+
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+     .img1 {
+        position: relative;
+        top: 5%;
+        left: 30%;
+        color: #fff;
+        height: 20px;
+        width: 20px;;
+       
+      
+       
+    }
+    .b{
+        position: relative;
+        left:75%;
+        top: 13%;
+    }
+    .social{
+        font-size: large;
+        position: relative;
+        gap: 30px;
+        left:75%;
+        top: %
+    }
+    .c{
+        position: relative;
+        left: 75%;
+        padding-bottom: 10px;
+    }
+    .d{
+        position: relative;
+        left: 75%;
+        padding-bottom: 10px;
+    }
+    .e{
+        position: relative;
+        left:4%;
+        top: 13%%;
+    }
+    
+    
